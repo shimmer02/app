@@ -60,7 +60,7 @@ st.markdown(
 
 # ---------- Countdown ----------
 today = datetime.now().date()
-next_birthday = datetime(2026, 9, 27).date()  # Replace with her actual birthday
+next_birthday = datetime(2026, 9, 26).date()  # Replace with her actual birthday
 
 if today > next_birthday:
     next_birthday = datetime(today.year + 1, 9, 27).date()
@@ -87,4 +87,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
